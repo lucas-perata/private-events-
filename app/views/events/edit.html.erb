@@ -1,9 +1,10 @@
+<%= turbo_frame_tag "event_edit" do %>
 <h1>Editing event</h1>
 
 <%= render "form", event: @event %>
 
 <br>
-
+<% end %>
 <div>
   <%= link_to "Show this event", @event %> |
   <%= link_to "Back to events", events_path %>
