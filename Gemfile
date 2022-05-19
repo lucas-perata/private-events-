@@ -64,6 +64,7 @@ group :development do
   # gem "spring"
   gem 'simple_form', '~> 5.1'
   gem 'devise', '~> 4.8', '>= 4.8.1'
+  gem 'simple_form-tailwind'
 end
 
 group :test do
