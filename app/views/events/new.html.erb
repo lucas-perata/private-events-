@@ -1,8 +1,9 @@
 
 <h1>Your event</h1>
 <%= turbo_frame_tag "event" do %>
+<div id="events">
 <%= render "form", event: @event %>
-
+</div>
 <br>
 
 <div>
